@@ -33,4 +33,20 @@
         color: variables.$corTexto;
     }
 
+    @media (max-width: 640px) {
+        display: block;
+
+        &__image {
+            height: 90%;
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__text {
+            font-size: 20px;
+        }
+    }
 }
