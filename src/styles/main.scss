@@ -1,5 +1,6 @@
 @use 'hero';
 @use 'variables';
+@use 'event';
 
 * {
     margin: 0;
@@ -16,4 +17,5 @@
 
 .title {
     font-family: Cedarville, cursive;
+    text-transform: uppercase;
 }

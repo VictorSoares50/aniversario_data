@@ -7,14 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Aniversário</title>
 </head>
 <body>
     <header class="hero">
         <div class="container">
-
             <img class="hero__logo" src="./images/aniversario.png" alt="boneco comemorando aniversário">
-
             <h1 class="hero__title title">
                 Aniversário
             </h1>
@@ -22,11 +21,36 @@
                 Esse ano iremos celebrar o aniversário de Victor Soares daqui a:
             </p>
             <span id="niver">12d 7h 20m</span>
-
-
         </div>
-
-    </header>
-    
+</header>
+<section class="event event--celebration">
+<div class="container" data-aos="fade-up">
+    <img class="event__image" src="./images/bolo.jpg" alt="bolo de aniversário">
+    <h2 class="event__title title">
+        comemoração 
+    </h2>
+    <p class="event__text"> Celebraremos essa data com um bolo especial seguido de muitas opções de salgados e doces a sua disposição</p>
+</div>
+</section>
+<section class="event event--program">
+<div class="container" data-aos="fade-up">
+        <img class="event__image" src="./images/atraçao.webp" alt="parque de cama elástica">
+        <h2 class="event__title title">
+            programação
+        </h2>
+        <p class="event__text"> Diversas atrações o aguardam nesse aniversário, como uma seção no parque de cama elástica por exemplo seguido de muito mais</p>
+</div>
+</section>
+<section class="event event--playlist">
+<div class="container" data-aos="fade-up">
+        <img class="event__image" src="./images/jbl.webp" alt="caixa de som">
+        <h2 class="event__title title">
+            playlist 
+        </h2>
+        <p class="event__text"> Fique a vontade para escolher qualquer música que preferir, juntos faremos um abiente mais agradável para todos</p>
+</div>
+</section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>
