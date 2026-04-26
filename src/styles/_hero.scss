@@ -1,0 +1,48 @@
+@use 'variables';
+
+.hero {
+    padding-top: 100px;
+    background-image: url(../images/fundo.jpg!bw700);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 150px;
+    position: relative;
+    
+    
+    .container {
+        
+        &::before {
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            position: absolute;
+            opacity: .7;
+
+        }
+        
+    }
+    
+
+
+    &__title {
+        color: variables.$corTitulo;
+        font-size: 70px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    &__text {
+        color: variables.$corTexto;
+        font-size: 35px;
+        position: relative;
+    }
+
+    &__logo {
+        height: 200px;
+        position: relative;
+    }
+    }
